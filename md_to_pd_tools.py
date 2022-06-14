@@ -11,7 +11,7 @@ def dihedral_into_pd(dihedrals, struc, traj):
     # Iterate through the list of dihedral atom lists
     for d in dihedrals:
         # Make a selection of the 4 atoms involved in the current dihedral
-        latest_d = conformers.atoms[d]
+        latest_d = u.atoms[d]
         # Create an empty list to store the each dihedrals values
         dis = []
         # Iterate through the trajectory
