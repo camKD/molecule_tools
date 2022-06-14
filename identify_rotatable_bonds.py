@@ -80,6 +80,6 @@ def identify_OH_rotatable_bonds(structure_path_or_rdkit_mol):
 
 ### I'm an idiot. Just needed to add hydrogens to the original script. Ah well. identify_main_rotatable_bonds() will not identify all rotatable bonds
 
-print(identify_main_rotatable_bonds('epctcn.pdb'))
+#print(identify_main_rotatable_bonds('epctcn.pdb'))
 #print(identify_OH_rotatable_bonds('epctcn.pdb'))
 #print(identify_all_rotatable_bonds('epctcn.pdb'))
